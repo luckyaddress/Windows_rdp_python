@@ -10,3 +10,4 @@ for i in range (0, len(content),1): # 取得第一個參數 subnet
         command = "xfreerdp " + "-u " + content[i][3] + " -p " + content[i][4] + " --ignore-certificate " + " " +  content[i][0]  + str(ip) + " &" 
         print(command)
         #os.system(command) #執行系統命令
+        
